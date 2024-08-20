@@ -5,7 +5,9 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = "pretty" )
+		plugin = {"pretty", "html:target/report-html"},
+		features = "src/test/java/features/logar_conta.feature"
+		)
 public class Runner {
 
 }

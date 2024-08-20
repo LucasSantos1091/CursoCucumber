@@ -32,7 +32,7 @@ public class AprenderCucumber {
 	public void o_valor_do_contador_será(Integer int1) {
 	  //  System.out.println(int1);
 	   // System.out.println(contador);
-	  //  Assert.assertTrue(int1 == contador);
-	    Assert.assertEquals(int1, contador);
+	    Assert.assertTrue(int1 == contador);
+	   // Assert.assertEquals(int1, contador);
 	}
 }
